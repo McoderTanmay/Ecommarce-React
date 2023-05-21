@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.1df67031.css",
+    "main.js": "/my-app/static/js/main.8dcdc0e7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/watch-01.png": "/my-app/static/media/watch-01.b4cf0b1275c0c5271a2f.png",
+    "index.html": "/my-app/index.html",
+    "main.1df67031.css.map": "/my-app/static/css/main.1df67031.css.map",
+    "main.8dcdc0e7.js.map": "/my-app/static/js/main.8dcdc0e7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df67031.css",
+    "static/js/main.8dcdc0e7.js"
+  ]
+}
