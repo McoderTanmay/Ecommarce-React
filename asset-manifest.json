@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ecommarce-react/static/css/main.1df67031.css",
-    "main.js": "/Ecommarce-react/static/js/main.8973b246.js",
+    "main.js": "/Ecommarce-react/static/js/main.f565013f.js",
     "static/js/787.28cb0dcd.chunk.js": "/Ecommarce-react/static/js/787.28cb0dcd.chunk.js",
     "static/media/watch-01.png": "/Ecommarce-react/static/media/watch-01.b4cf0b1275c0c5271a2f.png",
     "index.html": "/Ecommarce-react/index.html",
     "main.1df67031.css.map": "/Ecommarce-react/static/css/main.1df67031.css.map",
-    "main.8973b246.js.map": "/Ecommarce-react/static/js/main.8973b246.js.map",
+    "main.f565013f.js.map": "/Ecommarce-react/static/js/main.f565013f.js.map",
     "787.28cb0dcd.chunk.js.map": "/Ecommarce-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1df67031.css",
-    "static/js/main.8973b246.js"
+    "static/js/main.f565013f.js"
   ]
 }
