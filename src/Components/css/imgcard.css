@@ -1,0 +1,28 @@
+.cover{
+    width: 80vw !important;
+    height: 60vh !important;
+    background: #f3f3f3 !important;
+    border: 0px !important;
+}
+.shop{
+    height: 2.5em;
+    width: 6em; 
+    background:rgb(3, 68, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shop a{
+    color: white;
+    text-decoration: none;
+   
+}
+.card-body{
+    text-align: start !important;
+}
+@media(max-width:770px){
+    .cover{
+        height: 40% !important;
+    }
+}

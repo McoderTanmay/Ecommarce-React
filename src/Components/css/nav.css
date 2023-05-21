@@ -1,0 +1,12 @@
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6em !important;
+    background: rgb(3, 68, 233);
+    color: white;
+    cursor: pointer;
+}
+.search-input{
+    border: none;
+}

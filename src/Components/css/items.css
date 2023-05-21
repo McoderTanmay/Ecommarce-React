@@ -1,0 +1,44 @@
+img{
+  height: 180px !important;
+}
+.SingleCard{
+  height: 70vh !important;
+  margin-right:10vw !important;
+  margin-left:10vw !important;
+  background: #f3f3f3 !important;
+}
+.sliders{
+  width: 50% !important;
+  height: 67vh !important;
+}
+.content{
+  width: 50% !important;
+  text-align: start;
+}
+.addtocart{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em !important;
+    background: rgb(3, 68, 233);
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:770px){
+  .cardRes{
+    display: flex;
+    flex-direction: column;
+  }
+  .sliders{
+    width: 100% !important;
+  }
+  .content {
+    width: 100% !important;
+    text-align: center;
+}
+.SingleCard {
+  height: 129vh !important;
+  margin-right: 0vw !important;
+  margin-left: 0vw !important;
+}
+}

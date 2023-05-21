@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./Components/pages/Nav";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import SingleItem from "./Components/pages/SingleProduct";
+import Firstprj from "./Components/pages/firstPg";
+import { useState } from "react";
 
 function App() {
+  const [productID,setproductID]=useState([])
+  const reciveData=(data)=>{
+    setproductID(data);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav></Nav>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Firstprj parentData={reciveData}/>} />
+          {
+            productID.map((z)=>(
+              <Route path={'/SingleProduct/'+z.id} element={<SingleItem
+              productID={z.id}
+              productIMG={z.productID}
+              />}/>
+            ))
+          }
+        </Routes>
+      </div>
     </div>
   );
 }
